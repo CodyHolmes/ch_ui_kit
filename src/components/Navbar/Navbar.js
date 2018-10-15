@@ -9,8 +9,6 @@ class Navbar extends Component {
 
         const fixedHeader = () => {
             const scrollPosition = win.scrollTop;
-            // console.log
-            console.log(scrollPosition);
             if (scrollPosition > 0){
                 navbar.classList.add('navbar--active');
             } else {
@@ -28,7 +26,6 @@ class Navbar extends Component {
             document.querySelector('.mobile-navbar').classList.toggle('mobile-navbar--active');
         });
 
-
         document.querySelector('.mobile-navbar__close').addEventListener('click', () => {
             document.querySelector('.mobile-navbar').classList.toggle('mobile-navbar--active');
         });
@@ -43,9 +40,9 @@ class Navbar extends Component {
                         </div>
                         <div className="navbar__right">
                                 <ul className="navbar__links">
-                                    <li><a href="#test">test 1</a></li>
-                                    <li><a href="#test">test 1</a></li>
-                                    <li><a href="#test">test 1</a></li>
+                                    <li><a href="https://github.com/CodyHolmes/ch_ui_kit/tree/master/src/components/Navbar" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i> Source Code</a></li>
+                                    <li><a href="#test">Link 2</a></li>
+                                    <li><a href="#test">Link 3</a></li>
                                 </ul>
                                 <div className="navbar__mobile">
                                     <button className="navbar__mobile-button">
@@ -61,10 +58,9 @@ class Navbar extends Component {
                     </button>
                     <div className="mobile-navbar__content">
                         <ul className="mobile-navbar__links">
-                            <li className="menu_item"><a href="#about">About</a></li>
-                            <li className="menu_item"><a href="#portfolio">Portfolio</a></li>
-                            <li className="menu_item"><a href="#skills">Skills</a></li>
-                            <li className="menu_item"><a href="#contact">Contact</a></li>
+                            <li><a href="https://github.com/CodyHolmes/ch_ui_kit/tree/master/src/components/Navbar" rel="noopener noreferrer" target="_blank"><i className="fab fa-github"></i> Source Code</a></li>
+                            <li><a href="#test">Link 2</a></li>
+                            <li><a href="#test">Link 3</a></li>
                         </ul>
                     </div>
                 </div>

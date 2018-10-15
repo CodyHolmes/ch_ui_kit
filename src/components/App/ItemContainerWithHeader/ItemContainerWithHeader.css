@@ -5,13 +5,27 @@
     font-size: 5rem;
     line-height: 5rem;
     margin: 40px 0;
-  }
-  
-  footer {
-    font-size: 1rem;
+}
+
+footer {
+	font-size: 1rem;
     color: white;
-  }
-  
-  .footer__heart {
-    color: red;
-  }
+}
+
+.footer__heart {
+	color: red;
+	transition: all 1s ease;
+}
+
+.footer__heart:hover {
+ transform: rotate(360deg);
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+	.site-title {
+    	font-size: 2rem;
+		line-height: 1rem;
+		margin: 40px 0 0 0;
+  	}
+}

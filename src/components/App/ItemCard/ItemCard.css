@@ -5,11 +5,11 @@
     color: white;
     max-width: 960px;
     margin: 90px 0 25px 0;
-    padding: 5px 40px 15px;
+    padding: 5px 40px 50px;
     box-sizing: border-box;
     border-radius: 2px;
     box-shadow: 5px 5px 50px 0px #fa90a3;
-    min-height: 500px;
+    /* min-height: 500px; */
     font-size: 20px;
     line-height: 28px;
   }
@@ -41,4 +41,44 @@
 
   .item-card:hover .item-card__title {
     top: -65px;
+  }
+
+  .item-card__contents {
+    margin: 25px 25px;
+  }
+
+  .item-card__source {
+    bottom: 0;
+    position: absolute;
+    margin: 1em;
+    left: 0;
+    font-size: 0.7rem;
+    padding: 0 0;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+
+  .item-card__source::before {
+    content: "»";
+    top: 0%;
+    left: -0.1em;
+    position: absolute;
+    font-size: 0.7rem;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  .item-card__source:hover::before{
+    opacity: 1;
+  }
+
+  .item-card__source:hover{
+    padding-left: 10px;
+  }
+
+  .item-card__github {
+    position: relative;
+    margin-left: 5px;
   }
