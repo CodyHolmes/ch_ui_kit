@@ -1,0 +1,17 @@
+.site-title {
+    max-width: 960px;
+    color: white;
+    text-align: left;
+    font-size: 5rem;
+    line-height: 5rem;
+    margin: 40px 0;
+  }
+  
+  footer {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .footer__heart {
+    color: red;
+  }

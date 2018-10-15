@@ -1,0 +1,123 @@
+/*************************************
+*** REMOVE BEFORE USE 
+**************************************/
+.remove-before-use-2k-px-div {
+    min-height: 2000px;
+}
+
+
+/* BASE */
+.navbar {
+    position: fixed;
+    background: transparent;
+    height: 70px;
+    width: 100%;
+    color: white;
+    transition: all .5s;
+}
+
+.navbar__content{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5%;
+}
+
+.navbar__title{
+    color: white;
+}
+
+.navbar__links ul {
+    list-style: none;
+}
+
+.navbar__links li {
+    display: inline-block;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+/* Sticky */
+.navbar--active {
+    background: black;
+    box-shadow: 0 5px 8px 0 rbga(0,0,0,0.14);
+}
+
+/* Mobile */
+.navbar__mobile-button, .mobile-navbar__close {
+    border: none;
+    background: transparent;
+    color:white;
+    font-size: 1em;
+}
+
+.mobile-navbar {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    transition: all .3s ease;
+    opacity: 0;
+}
+
+.mobile-navbar--active {
+    top: 0;
+    height: 100%;
+    opacity: 1;
+}
+
+.mobile-navbar__close {
+    color: #fff;
+    transition: all .3s;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+.mobile-navbar__content {
+    height: 100%;
+}
+
+.mobile-navbar__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.mobile-navbar__links li {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.mobile-navbar__links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-weight: 700; */
+    color: white;
+}
+
+/* tablets and desktop */
+@media only screen and (min-width: 768px) {
+    .navbar__mobile-button {
+        display: none;
+    }
+}
+
+/* phones */
+@media only screen and (max-width: 767px) {
+    .navbar__links {
+        display: none;
+    }
+}

@@ -1,0 +1,44 @@
+
+.item-card {
+    position: relative;
+    background:#323b40;
+    color: white;
+    max-width: 960px;
+    margin: 90px 0 25px 0;
+    padding: 5px 40px 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 5px 5px 50px 0px #fa90a3;
+    min-height: 500px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .item-card .item-card__title {
+    font-size: 1.4rem;
+    display: inline-block;
+    /* transform: rotate(-90deg); */
+    transition: all ease-in-out .1s;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #e12345;
+    color: white;
+    margin: 0;
+    line-height: 1.6rem;
+    padding: 15px;
+    z-index: -2;
+    border-radius: 4px;
+    min-width: 130px;
+  }
+
+  .item-card__title small{
+    font-weight: normal;
+    font-size: 1rem;
+    display: block;
+    color: #323b40;
+  }
+
+  .item-card:hover .item-card__title {
+    top: -65px;
+  }
