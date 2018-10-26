@@ -7,6 +7,10 @@
     margin: 40px 0;
 }
 
+.personal-github-link {
+	color: white;
+}
+
 footer {
 	font-size: 1rem;
     color: white;

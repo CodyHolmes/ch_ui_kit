@@ -13,7 +13,7 @@ class ItemContainerWithHeader extends React.Component {
                         <ItemCard {...this.props}/>
                         <footer>
                             <div className="made-with-love">
-                                Made with <i className="fas fa-heart footer__heart"></i> by Cody Holmes
+                                Made with <i className="fas fa-heart footer__heart"></i> by <a href='https://github.com/CodyHolmes/' rel="noopener noreferrer" class="personal-github-link" target="_blank">Cody Holmes</a>
                             </div>
                         </footer>
                     </div>
