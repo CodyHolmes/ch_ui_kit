@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
 import Buttons from '../Buttons/Buttons';
+import Login from '../Login/Login';
 import Navbar from '../Navbar/Navbar';
 import TableOfContents from './TableOfContents/TableOfContents';
 import ItemContainerWithHeader from './ItemContainerWithHeader/ItemContainerWithHeader';
@@ -27,6 +28,7 @@ class App extends Component {
                         subtitle = "Some awesome buttons"
                         githubLink = "https://github.com/CodyHolmes/ch_ui_kit/tree/master/src/components/Buttons"
                         />
+                    <Route exact={true} path="/Login" component={Login}/>
                     <Route exact={true} path="/Navbar" component={Navbar}/>
                     <nav className="floating-action-button" >
                         <Link to='/' className="home-button">
