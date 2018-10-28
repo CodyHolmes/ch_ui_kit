@@ -1,13 +1,14 @@
 {
-  "main.css": "/ch_ui_kit/static/css/main.702c5cb1.chunk.css",
-  "main.js": "/ch_ui_kit/static/js/main.9d70a546.chunk.js",
-  "main.js.map": "/ch_ui_kit/static/js/main.9d70a546.chunk.js.map",
-  "static/js/1.04dde2be.chunk.js": "/ch_ui_kit/static/js/1.04dde2be.chunk.js",
-  "static/js/1.04dde2be.chunk.js.map": "/ch_ui_kit/static/js/1.04dde2be.chunk.js.map",
+  "main.css": "/ch_ui_kit/static/css/main.b68d980e.chunk.css",
+  "main.js": "/ch_ui_kit/static/js/main.e211127a.chunk.js",
+  "main.js.map": "/ch_ui_kit/static/js/main.e211127a.chunk.js.map",
+  "static/js/1.9b499ec2.chunk.js": "/ch_ui_kit/static/js/1.9b499ec2.chunk.js",
+  "static/js/1.9b499ec2.chunk.js.map": "/ch_ui_kit/static/js/1.9b499ec2.chunk.js.map",
   "runtime~main.js": "/ch_ui_kit/static/js/runtime~main.b1e365e3.js",
   "runtime~main.js.map": "/ch_ui_kit/static/js/runtime~main.b1e365e3.js.map",
-  "static/css/main.702c5cb1.chunk.css.map": "/ch_ui_kit/static/css/main.702c5cb1.chunk.css.map",
+  "static/media/Login.css": "/ch_ui_kit/static/media/donuts.d270ffd3.png",
+  "static/css/main.b68d980e.chunk.css.map": "/ch_ui_kit/static/css/main.b68d980e.chunk.css.map",
   "index.html": "/ch_ui_kit/index.html",
-  "precache-manifest.bd7c2a2d278447ca988106e298745ea9.js": "/ch_ui_kit/precache-manifest.bd7c2a2d278447ca988106e298745ea9.js",
+  "precache-manifest.248f667be9558c22b39c15d4f4b810a2.js": "/ch_ui_kit/precache-manifest.248f667be9558c22b39c15d4f4b810a2.js",
   "service-worker.js": "/ch_ui_kit/service-worker.js"
 }
